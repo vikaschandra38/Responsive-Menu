@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    background-color: orange;
+
+    .container{
+        width: 80%;
+        margin: 0 auto;
+        height: 100px;
+        margin-bottom: 20px;
+
+        ul{
+            list-style-type: none;
+            display: flex;
+            width: 100%;
+            height: 100px;
+
+            li{
+                border: 1px solid white;
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+    
+
+    .actions{
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+
+        button{
+            padding: 20px 30px;
+            border-radius: 6px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+    }
+}
